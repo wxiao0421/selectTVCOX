@@ -7,7 +7,7 @@ regression coefficients. Combining the ideas of local polynomial smoothing and g
 ### What is inside
 File **KGNG.R** contains the main function *KGNG* to calculate KGNG (kernel group nonnegative garrote estimator) or KGNG2 (KGNG with preliminary step) in time-varying coefficient Cox model. This method can automatically identify the structure of covariates, i.e., covariates with null effect(O), covariates with constant effect (C) and covariates with truly time-varying effect (NC), and estimate the corresponding regression coefficients. The structure of covariate effects has been automatically identified. 
 
-|![Image of convexlar ls](/figures/Figure3.png | width=100)|![Image of convexlasso ls](/figures/Figure4.png | width=100)|
+|![Image of convexlar ls](/figures/Figure3.png)|![Image of convexlasso ls](/figures/Figure4.png)|
 |:---:|:---:|
 
 ![Image of convexlar ls](/figures/Table4.png| width=150)
