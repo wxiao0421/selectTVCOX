@@ -10,7 +10,7 @@ File **KGNG.R** contains the main function *KGNG* to calculate KGNG (kernel grou
 |![Image of convexlar ls](/figures/Figure3.png)|![Image of convexlasso ls](/figures/Figure4.png)|
 |:---:|:---:|
 
-![Image of convexlar ls](/figures/Table4.png| width=150)
+![Image of convexlar ls](/figures/Table4.png)
 
 File **simPBC.R** applies the *KGNG* method to analyze the PBC data (Fleming and Harrington (1991)). The results are shown in the following Figures and Table
 
