@@ -1,0 +1,47 @@
+Primary Biliary Cirrhosis
+
+A nearly identical data set found in appendix D of Fleming and Harrington.
+The differences with this data set are:
+  age is in days, status is coded with 3 levels, and
+  the sex and stage variables are not missing for obs 313-418.
+
+The data is from the Mayo Clinic trial in primary biliary cirrhosis (PBC) 
+of the liver conducted between 1974 and 1984.  A total of 424 PBC patients, 
+referred to Mayo Clinic during that ten-year interval, met eligibility 
+criteria for the randomized placebo controlled trial of the drug D-penicillamine.  
+The first 312 cases in the data set participated in the randomized trial and 
+contain largely complete data.  The additional 112 cases did not participate 
+in the clinical trial, but consented to have basic measurements recorded and 
+to be followed for survival.  Six of those cases were lost to follow-up shortly 
+after diagnosis, so the data here are on an additional 106 cases as well as 
+the 312 randomized participants. Missing data items are denoted by a period. 
+
+
+- case number
+- number of days between registration and the earlier of death,
+       transplantion, or study analysis time in July, 1986
+- status: 0=alive, 1=liver transplant, 2=dead
+- drug: 1= D-penicillamine, 2=placebo
+- age in days
+- sex: 0=male, 1=female
+- presence of ascites:       0=no 1=yes
+- presence of hepatomegaly   0=no 1=yes
+- presence of spiders        0=no 1=yes
+- presence of edema          0=no edema and no diuretic therapy for edema;
+	.5 = edema present without diuretics, or edema resolved by diuretics;
+	1 = edema despite diuretic therapy
+- serum bilirubin in mg/dl
+- serum cholesterol in mg/dl
+- albumin in gm/dl
+- urine copper in ug/day
+- alkaline phosphatase in U/liter
+- SGOT in U/ml
+- triglicerides in mg/dl
+- platelets per cubic ml / 1000
+- prothrombin time in seconds
+- histologic stage of disease
+
+
+Reference:
+Fleming and Harrington, Counting
+Processes and Survival Analysis, Wiley, 1991.
