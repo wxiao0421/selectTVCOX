@@ -4,7 +4,7 @@ Structure selection in time-varying coefficient Cox model
 In time-varying coefficient Cox model, it is of great practical interest to accurately identify the structure of covariate effects, covariates with null effect, constant effect and truly time-varying effect, and estimate the corresponding
 regression coefficients. Combining the ideas of local polynomial smoothing and group nonnegative garrote, we develop a new penalization approach to achieve such goals. See the [paper for details](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4987133/)
 
-### What is inside
+### What is inside?
 File **KGNG.R** contains the main function *KGNG* to calculate KGNG (kernel group nonnegative garrote estimator) or KGNG2 (KGNG with preliminary step) in time-varying coefficient Cox model. This method can automatically identify the structure of covariates, i.e., covariates with null effect(O), covariates with constant effect (C) and covariates with truly time-varying effect (NC), and estimate the corresponding regression coefficients. The structure of covariate effects has been automatically identified. 
 
 File **simPBC.R** applies the *KGNG* method to analyze the PBC data (Fleming and Harrington (1991)). The results are shown in the following Figures and Table.
